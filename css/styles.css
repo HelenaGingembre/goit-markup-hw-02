@@ -1,0 +1,16 @@
+:root {
+  --accent-color: #2196f3;
+  --text-color-p: #757575;
+  --text-color-h: #212121;
+  --bg-color: #2f303a;
+  --line-color: #ececec;
+  --bg-section: #f5f4fa;
+  --bg-card: #ffffff;
+  --bg-hover-button: #188ce8;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: var(--bg-color);
+  color: var(--text-color-p);
+}
