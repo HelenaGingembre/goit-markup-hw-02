@@ -44,7 +44,9 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .nav-address .link:hover,
-.nav-address .link:focus {
+.nav-address .link:focus,
+.address-item .link:hover,
+.address-item .link:focus {
   color: var(--accent-color);
 }
 
