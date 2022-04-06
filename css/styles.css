@@ -3,11 +3,19 @@
   --text-color-p: #757575; /*text color */
   --text-color-h: #212121; /*header color */
   --text-color-logo: #000000;
-  --bg-color-main: #ffffff; /*background-color header(top),section & card */
-  --bg-color-hero-footer: #2f303a; /*background-color section-hero & footer  */
+  --text-color-logo-footer: #ffffff;
+  --bg-color-main: #ffffff; /*background-color section  */
+  --bg-color-card: #ffffff;
+  --bg-color-header: #ffffff;
+  --hero-title-color: #ffffff;
+  --btn-text-color: #ffffff;
+
+  --bg-color-hero: #2f303a; /*background-color section-hero  */
+  --bg-color-footer: #2f303a;
   /* --line-color: #ececec;    line-color header(top)*/
   --bg-section-team: #f5f4fa; /*background-color section-team */
   --link-color-address: rgba(255, 255, 255, 0.6);
+  --p-color-address: #ffffff;
   --bg-hover-button: #188ce8;
 }
 body {
@@ -25,6 +33,10 @@ body {
 .link,
 .logo {
   text-decoration: none;
+}
+/* header */
+.header {
+  background-color: var(--bg-color-header);
 }
 /* site nav */
 .logo {
@@ -65,7 +77,7 @@ body {
 }
 /* section Hero */
 .hero {
-  background-color: var(--bg-color-hero-footer);
+  background-color: var(--bg-color-hero);
 }
 .hero-title {
   font-weight: 900;
@@ -74,7 +86,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--bg-color-main);
+  color: var(--hero-title-color);
 }
 
 .hero .btn {
@@ -87,7 +99,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--bg-color-main);
+  color: var(--btn-text-color);
   background-color: var(--accent-color);
   border-radius: 4px;
   border: none;
@@ -135,7 +147,7 @@ body {
   background-color: var(--bg-section-team);
 }
 .team-card {
-  background-color: var(--bg-color-main);
+  background-color: var(--bg-color-card);
 }
 .card-name {
   font-weight: 500;
@@ -155,12 +167,12 @@ body {
 }
 /* Footer */
 footer {
-  background-color: var(--bg-color-hero-footer);
+  background-color: var(--bg-color-footer);
 }
 footer .logo {
   font-size: 26px;
   line-height: 1.19;
-  color: var(--bg-color-main);
+  color: var(--text-color-logo-footer);
 }
 .address-item {
   font-style: normal;
@@ -168,7 +180,7 @@ footer .logo {
   line-height: 1.71;
   /* or 171% =24px/14px */
   letter-spacing: 0.03em;
-  color: var(--bg-color-main);
+  color: var(--p-color-address);
 }
 .address-item .link {
   color: var(--link-color-address);
@@ -191,7 +203,7 @@ footer .logo {
 .filter-item .btn:hover,
 .filter-item .btn:focus,
 .filter-item .btn:active {
-  color: var(--bg-color-main);
+  color: var(--btn-text-color);
   background: var(--accent-color);
 
   /* shadow-middle */
@@ -201,7 +213,7 @@ footer .logo {
 }
 
 .portfolio-card {
-  background-color: var(--bg-color-main);
+  background-color: var(--bg-color-card);
   border: 1px solid rgba(238, 238, 238, 1);
 }
 .portfolio-card .title {
