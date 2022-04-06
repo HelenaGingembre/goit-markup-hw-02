@@ -20,6 +20,8 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.17;
   color: var(--text-color-p);
   background-color: var(--bg-color-main);
 }
@@ -64,15 +66,16 @@ body {
 
 .nav-list .link {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17; /* 16.41px/14px =1.17 */
+  /* font-size: 14px; */
+  /* line-height: 1.17; 16.41px/14px =1.17 */
   letter-spacing: 0.02em;
   color: var(--text-color-h);
 }
 .nav-address .link {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17; /* 16.41px/14px =1.17 */
+  /* font-size: 14px; */
+  /* line-height: 1.17;  */
+  /* 16.41px/14px =1.17 */
   letter-spacing: 0.02em;
   color: var(--text-color-p);
 }
@@ -93,7 +96,7 @@ body {
 .hero .btn {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   /* identical to box height, or 188% = 30px/16px */
 
   display: flex;
@@ -128,7 +131,7 @@ body {
 }
 .feature-item .text {
   font-weight: 400;
-  font-size: 14px;
+  /* font-size: 14px;*/
   line-height: 1.71;
   /* or 171% = 24px/14px*/
   letter-spacing: 0.03em;
@@ -177,7 +180,7 @@ footer .logo {
 }
 .address-item {
   font-style: normal;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.71;
   /* or 171% =24px/14px */
   letter-spacing: 0.03em;
