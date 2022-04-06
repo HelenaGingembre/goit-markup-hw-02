@@ -220,4 +220,5 @@ footer .logo {
   /* identical to box height, or 188%=30px/16px */
 
   letter-spacing: 0.03em;
+  color: var(--text-color-p);
 }
